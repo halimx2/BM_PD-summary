@@ -3,8 +3,8 @@ import pandas as pd
 import io
 from report_extractor import parse_chat_text, extract_report_data
 
-st.set_page_config(page_title="채팅 리포트 추출기", layout="wide")
-st.title("📋 채팅 리포트 추출기 웹 앱")
+st.set_page_config(page_title="MI 2동 BM,PD 이력 정리", layout="wide")
+st.title("📋 MI 2동 BM,PD 이력 정리")
 
 uploaded_files = st.file_uploader(
     "채팅 txt 파일을 업로드해주세요 (여러 파일 선택 가능)",
